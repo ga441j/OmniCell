@@ -81,6 +81,17 @@ public class Cabinet {
 		System.out.println(smallBin[0]);
 	}
 	
+	public void alertLessThan20Percent() {
+		smallBin[0].resetUnit();
+
+		System.out.println("Initializing Small Bin - 1");
+		smallBin[0] = new SmallBin(2);
+		System.out.println();
+		
+		smallBin[0].removeUnit(new Unit(2, "SmallBin Medication - 2"));
+		System.out.println(smallBin[0]);
+	}
+	
 	@Override
 	public String toString() {
 		return "Cabinet [smallBin=" + Arrays.toString(smallBin) + ", mediumBin=" + Arrays.toString(mediumBin)

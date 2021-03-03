@@ -42,7 +42,7 @@ public class BinImpl implements Bin {
 	}
 
 	@Override
-	public void resetUnit(Unit u) {
+	public void resetUnit() {
 		unitList.clear();
 		System.out.println("Reset has be completed on " + this.getClass().getSimpleName());
 	}

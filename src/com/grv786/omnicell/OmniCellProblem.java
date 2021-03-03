@@ -27,6 +27,9 @@ public class OmniCellProblem {
 
 		System.out.println();
 		cabinet.removeFromFirstSmallBin();
+		
+		System.out.println();
+		cabinet.alertLessThan20Percent();
 	}
 
 }

@@ -13,6 +13,15 @@ public class SmallBin extends BinImpl {
 			addUnit(new Unit(i + 1, "SmallBin Medication - " + (i + 1)));
 		}
 	}
+	
+	public SmallBin(int count) {
+		super();
+		maxCapacity = 5;
+		
+		for(int i = 0; i < count; i++) {
+			addUnit(new Unit(i + 1, "SmallBin Medication - " + (i + 1)));
+		}
+	}
 
 	@Override
 	public String toString() {
