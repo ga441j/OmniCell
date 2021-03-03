@@ -78,6 +78,7 @@ public class Cabinet {
 	
 	public void removeFromFirstSmallBin() {
 		smallBin[0].removeUnit(new Unit(3, "SmallBin Medication - 3"));
+		System.out.println(smallBin[0]);
 	}
 	
 	@Override
