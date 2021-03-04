@@ -12,7 +12,7 @@ import java.util.List;
  */
 public class BinImpl implements Bin {
 
-	protected int maxCapacity = 0;
+	public int maxCapacity = 0;
 	protected List<Unit> unitList = new ArrayList<Unit>();
 	
 
@@ -50,6 +50,13 @@ public class BinImpl implements Bin {
 	@Override
 	public String toString() {
 		return unitList.toString();
+	}
+	
+	/**
+	 * @return the maxCapacity
+	 */
+	public int getMaxCapacity() {
+		return maxCapacity;
 	}
 
 }

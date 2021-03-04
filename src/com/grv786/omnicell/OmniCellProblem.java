@@ -21,6 +21,7 @@ public class OmniCellProblem {
 		cabinet.fillCabinet();
 		System.out.println(cabinet);
 		
+		System.out.println();
 		cabinet.firstSmallBinOverflow();
 		cabinet.firstMediumBinOverflow();
 		cabinet.firstLargeBinOverflow();
@@ -30,6 +31,9 @@ public class OmniCellProblem {
 		
 		System.out.println();
 		cabinet.alertLessThan20Percent();
+		
+		System.out.println();
+		System.out.println("Final Status of the Cabinate: " + cabinet);
 	}
 
 }

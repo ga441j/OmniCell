@@ -14,5 +14,7 @@ public interface Bin {
 	public void removeUnit(Unit u);
 
 	public void resetUnit();
+	
+	public int getMaxCapacity();
 }
 
